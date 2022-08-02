@@ -6,8 +6,7 @@ public class Task1 {
     public static void main(String[] args) {
         //1. Напишите программу, где пользователь вводит любое целое положительное число. А программа суммирует
         //все числа от 1 до введенного пользователем числа.
-        int a = App.scannerInt("a");
-        System.out.println("a = " + a);
+        int a = -1;
         while (a < 0) {
             a = App.scannerInt("a");
             System.out.println("a = " + a);
