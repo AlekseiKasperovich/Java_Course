@@ -14,7 +14,7 @@ public class Task8 {
         System.out.println("num2 = " + str2);
         char[] num1 = str1.toCharArray();
         char[] num2 = str2.toCharArray();
-        Set<Character> set=new HashSet<>();
+        Set<Character> set = new HashSet<>();
         System.out.println("Цифры, входящие в запись как первого так и второго числа: ");
         for (char a : num1) {
             for (char b : num2) {
