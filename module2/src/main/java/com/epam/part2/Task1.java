@@ -13,7 +13,6 @@ public class Task1 {
                 if (matrix[0][j] > matrix[matrix.length - 1][j] && j % 2 != 0) {
                     System.out.print(matrix[i][j]);
                 }
-
             }
             System.out.println();
         }
